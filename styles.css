@@ -1,1 +1,118 @@
-/*  your css code here. If applicable */
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Page background */
+body {
+  background-color: #e9e9e9;
+  padding: 40px;
+}
+
+/* Center container */
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 30px;
+  font-size: 36px;
+  color: #444;
+}
+
+/* Blue color for "Book" */
+h1 span {
+  color: #2d8cff;
+  font-weight: 500;
+}
+
+/* Form group */
+.form-group {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+/* Labels */
+.form-group label {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Inputs */
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+  border: 1px solid #d3d3d3;
+  border-radius: 2px;
+  outline: none;
+  background-color: #f8f8f8;
+}
+
+/* Input focus effect */
+.form-group input:focus {
+  border: 1px solid #2d8cff;
+  background-color: #ffffff;
+}
+
+/* Add Book Button */
+#submit {
+  background-color: #2d8cff;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  font-size: 13px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #1c6ed5;
+}
+
+/* Table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #f5f5f5;
+}
+
+/* Table Header */
+.table th {
+  text-align: left;
+  padding: 10px;
+  font-size: 13px;
+  border-bottom: 2px solid #333;
+  color: #444;
+}
+
+/* Table Data */
+.table td {
+  padding: 10px;
+  font-size: 13px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Delete button */
+.delete {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 3px 7px;
+  font-size: 12px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.delete:hover {
+  background-color: #a71d2a;
+}
